@@ -1,0 +1,165 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  color: #6c6b6b;
+}
+
+.clearfix:after {
+  content:"";
+  display:block;
+  clear:both;
+}
+
+header{
+  margin: 0 auto;
+  width: 100%;
+}
+
+header h1{
+  padding: 20px 0px;
+  text-align: center;
+}
+
+.nav-list{
+  text-align: center;
+  padding: 15px 0;
+  margin: 0 auto;
+  border-bottom: 1px solid #848282;
+  border-top: 1px solid #848282;
+
+}
+
+.list-item{
+	padding: 15px 15px;
+	text-align: center;
+	list-style: none;
+	display: inline-block;
+}
+
+.main{
+  text-align: center;ß
+  width: 100%;
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
+
+.gradation{
+  width: 800px;
+  text-align: center;
+  margin: 0 auto;
+}
+
+.green1{
+  height: 200px;
+  width: 200px;
+  background-color: #e6ffe9;
+  float: left;
+  display: inline-block;
+}
+
+.green2{
+  height: 200px;
+  width: 200px;
+  background-color: #cbffd3;
+  float: left;
+  display: inline-block;
+}
+
+
+.green3{
+  height: 200px;
+  width: 200px;
+  background-color: #aeffbd;
+  float: left;
+  display: inline-block;
+}
+
+
+.green4{
+  height: 200px;
+  width: 200px;
+  background-color: #93ffab;
+  float: left;
+  display: inline-block;
+}
+
+.yellow1{
+  height: 200px;
+  width: 200px;
+  background-color: #f3ffd8;
+  float: left;
+  display: inline-block;
+}
+
+.yellow2{
+  height: 200px;
+  width: 200px;
+  background-color: #edffbe;
+  float: left;
+  display: inline-block;
+}
+
+.yellow3{
+  height: 200px;
+  width: 200px;
+  background-color: #e9ffa5;
+  float: left;
+  display: inline-block;
+}
+
+.yellow4{
+  height: 200px;
+  width: 200px;
+  background-color: #e4ff8d;
+  float: left;
+  display: inline-block;
+}
+
+.blue1{
+  height: 200px;
+  width: 200px;
+  background-color: #d9e5ff;
+  float: left;
+  display: inline-block;
+  display: inline-block;
+}
+
+.blue2{
+  height: 200px;
+  width: 200px;
+  background-color: #bad3ff;
+  float: left;
+  display: inline-block;
+}
+
+.blue3{
+  height: 200px;
+  width: 200px;
+  background-color: #a4c6ff;
+  float: left;
+  display: inline-block;
+}
+
+.blue4{
+  height: 200px;
+  width: 200px;
+  background-color: #8eb8ff;
+  float: left;
+  display: inline-block;
+}
+
+footer {
+  width: 100%;
+  height: 120px; 
+  text-align: center;
+  padding: 50px 0;
+  background-color: #848282;
+}
+
+.footer-text {
+  color: #fff;
+}
+
+
+

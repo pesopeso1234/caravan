@@ -1,0 +1,38 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  color: #6c6b6b;
+}
+
+.box1{
+  height: 200px;
+  width: 100%;
+  background-image: url(sample_img-4/img/box1.jpg);
+  background-size: cover;
+}
+
+.box2{
+  height: 200px;
+  width: 100%;
+  background-image: url(sample_img-4/img/box2.jpg);
+  background-size: cover;
+}
+
+.box3{
+  height: 200px;
+  width: 100%;
+  background-image: url(sample_img-4/img/box3.jpg);
+  background-size: cover;
+}
+
+.box4{
+  height: 200px;
+  width: 100%;
+  background-image: url(sample_img-4/img/box4.jpg);
+  background-size: cover;
+}
+
+
+
+
