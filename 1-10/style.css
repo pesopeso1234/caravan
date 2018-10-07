@@ -42,6 +42,10 @@ nav li{
   padding: 0px 30px;
 }
 
+#hamberger{
+  display:none;
+}
+
 .main-visual{
   height: 650px;
   width: 100%;
@@ -197,9 +201,369 @@ nav li{
 }
 
 .feature-box p{
-  text-align: center;
+  text-align: left;
   color: #000000;
   font-size: 16px;
   margin: 0px 0px;
 }
 
+.profile{
+  background-color: #ECEFF1;
+}
+
+.profile-content{
+  width: 1024px;
+  margin: 0 auto;
+  padding-bottom: 90px;
+  padding-top: 90px;
+}
+
+.profile-content h2{
+  text-align: center;
+  font-size: 32px;
+  color: #000000;
+  padding-bottom: 8px;
+  }
+
+.profile-content p{
+  text-align: center;
+  color: #000000;
+  font-size: 16px;
+  margin: 30px 0px;
+}
+
+.profile-boxes{
+}
+
+.profile-box-left{
+  text-align: center;
+  width: 512px;
+  display: inline-block;
+  float:left;
+}
+
+.profile-box-left img{
+  text-align: center;
+  width: 250px;
+  height: 250px;
+  border-radius: 125px;
+}
+
+.profile-box-right{
+  width: 512px;
+  display: inline-block;
+  float: left;
+}
+
+
+.profile-box-right h3{
+  font-size: 20px;
+  margin-bottom: 5px;
+  color: #000000;
+}
+
+.profile-box-right p{
+  font-size: 16px;
+  margin-top: 0px;
+  margin-bottom: 20px;
+  color: #000000;
+  text-align: left;
+}
+
+.contact-content-top p{
+  text-align: center;
+  color: #000000;
+  font-size: 16px;
+  margin: 30px 0px;
+}
+
+.contact-content{
+  width: 800px;
+  margin: 90px auto;
+}
+
+ .contact-content h2{
+  text-align: center;
+  font-size: 32px;
+  color: #000000;
+  padding-bottom: 8px;
+ }
+
+.contact-content p{
+}
+
+.contact-boxes{
+}
+
+.contact-box-left{
+  width: 400px;
+  float: left;
+  text-align: center;
+}
+
+.mail-tell-boxes{
+  display: inline-block;
+}
+
+.mail-box{
+}
+
+.mail-box h3{
+  text-align: left;
+  font-size: 20px;
+  color: #000000;
+  margin-bottom: 5px;
+}
+
+.mail-box p{
+  text-align: left;
+  font-size: 16px;
+  color: #000000;
+  margin-top: 0px;
+  margin-bottom: 20px;
+  text-decoration: underline;
+}
+
+
+.tell-box{
+}
+
+.tell-box h3{
+  text-align: left;
+  font-size: 20px;
+  color: #000000;
+  margin-bottom: 5px;
+}
+
+.tell-box p{
+  text-align: center;
+  font-size: 16px;
+  color: #000000;
+  margin-top: 0px;
+  margin-bottom: 20px;
+  text-decoration: underline;
+}
+
+.contact-box-right {
+  width: 400px;
+  float: left;
+  text-align: center;
+}
+
+
+.sns-box{
+  display: inline-block;
+}
+
+.sns-box h3{
+  text-align: left;
+  font-size: 20px;
+  color: #000000;
+  margin-bottom: 5px;
+}
+
+.sns-box i{
+  text-align: center;
+  font-size: 50px;
+  margin-right: 20px;
+}
+
+.sns-box i:nth-child(3){
+  margin-right: 0px;
+}
+
+footer{
+  width: 100%;
+  height: 60px;
+  background-color: #EC715F;
+}
+
+footer p{
+  text-align: center;
+  color: #FAFAFA;
+  font-size: 16px;
+  line-height: 60px;
+}
+
+@media screen and (max-width:768px) {
+
+header{
+  height: 50px;
+}
+
+nav ul{
+  display: none;
+}
+
+nav img{
+  height: 50px;
+}
+#humberger {
+  position: relative;
+  height: 44px;
+  width: 40px;
+  display: inline-block;
+  float: right;
+  border: 1px solid #FAFAFA;
+  margin-right: 8px;
+  margin-top: 3px;
+  margin-bottom: 3px;
+ }
+#humberger div {
+  position: absolute;
+  left: 0;
+  height: 4px;
+  width: 20px;
+  background-color: #FAFAFA;
+  border-radius: 2px;
+  display: inline-block;
+}
+#humberger div:nth-of-type(1) {
+  top: 10px;
+  left: 10px;
+}
+#humberger div:nth-of-type(2) {
+  top: 20px;
+  left: 10px;
+}
+#humberger div:nth-of-type(3) {
+  top: 30px;
+  left: 10px;
+}
+
+.main-visual{
+  background-image: url(img/code.png);
+}
+
+.portfolio{
+  width: 100%;
+}
+
+.portfolio-content{
+  width: 90%;
+  margin: 90px 5%;
+  text-align: center;
+
+  }
+
+.portfolio-box{
+  float:none;
+  margin-right: 0px;
+  text-align: center;
+}
+
+.portfolio-img1{
+  display:none;
+}
+
+.portfolio-img2{
+  margin-bottom: 0px;
+}
+
+.portfolio-img3{
+  display:none;
+}
+
+.portfolio-img4{
+  margin-bottom: 10px;
+}
+
+.portfolio-img5{
+  display:none;
+}
+
+.portfolio-img6{
+}
+
+
+.feature{
+  width: 100%;
+}
+
+.feature-content{
+  width: 90%;
+  margin: 90px 5%;
+  text-align: center;
+}
+
+.feature-box{
+  float: none;
+}
+
+.feature-box:nth-child(n+2){
+  margin-top: 10px;
+}
+
+.profile{
+  width: 100%;
+}
+
+.profile-content{
+  width: 90%;
+  margin: 90px 5%;
+}
+
+.profile-box-left{
+  width: 100%;
+}
+
+.profile-box-left h3{
+  text-align: center;
+}
+
+.profile-box-left p{
+  text-align: center;
+}
+
+.profile-box-right{
+  width: 100%;
+ }
+
+ .profile-box-right h3{
+  text-align: center;
+}
+
+ .profile-box-right p{
+  text-align: center;
+}
+
+.contact{
+  width: 100%;
+}
+
+.contact-content{
+  width: 90%;
+  margin: 90px 5%;
+}
+
+.contact-box-left{
+  width: 100%;
+}
+
+.mail-box h3{
+  text-align: center;
+}
+
+.mail-box p{
+  text-align: center;
+}
+
+.tell-box h3{
+  text-align: center;
+}
+
+.tell-box p{
+  text-align: center;
+}
+
+.contact-box-right{
+  width: 100%;
+}
+
+.sns-box h3{
+  text-align: center;
+}
+
+
+
+}
